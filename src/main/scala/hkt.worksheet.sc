@@ -7,14 +7,13 @@
  * 
  * It can also reuse current project files as an import.
  */
-import SuburbDemo.domain.SuburbEvent
 import scala.collection.mutable.ListBuffer
 import scala.reflect.Typeable
 import cats.*
 import cats.implicits.*
-import SuburbDemo.domain.*
-import SuburbDemo.projections.*
-import SuburbDemo.infrastructure.*
+import EventSourcingScala3Demo.domain.*
+import EventSourcingScala3Demo.projections.*
+import EventSourcingScala3Demo.infrastructure.*
 import cats.data.EitherT
 import scala.concurrent.Future
 import scala.concurrent.ExecutionContext
